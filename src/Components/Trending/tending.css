@@ -1,0 +1,59 @@
+.trending {
+  margin-top: 50px;
+  color: white;
+}
+.trending h1 {
+  font-size: 60px;
+  margin-top: 0;
+  
+}
+@media only screen and (max-width: 768px) {
+  .trending h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+  .trending {
+    position: relative;
+    height: 60vh !important;
+    
+  }
+  .trending .coverImage img {
+    width: 100vw;
+    height: 70vh !important;
+  }
+  .trending .content {
+    flex-direction: column;
+    padding: 50px;
+    
+  }
+  .trending .row {
+    width: 100%;
+  }
+  .trending .playButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 478px) {
+  .trending h1 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+    margin: 0;
+  }
+  .trending {
+    position: relative;
+    height: 50vh !important; /* Further reduce height for smaller screens */
+  }
+  .trending .coverImage img {
+    width: 100vw;
+    height: 50vh !important; /* Adjust image height for smaller screens */
+  }
+  .trending .content {
+    flex-direction: column;
+    padding: 30px; /* Reduce padding for smaller screens */
+  }
+  .trending .row {
+    width: 100%;
+  }
+  .trending .playButton {
+    display: none; /* Hide play button on very small screens */
+  }
+}

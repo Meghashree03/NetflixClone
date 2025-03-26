@@ -1,0 +1,59 @@
+.home-banner {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This crops the image to fill the container */
+}
+
+.home-banner .shadow {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-banner .our-story {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the content precisely */
+    color: white;
+    text-align: center;
+    z-index: 1;
+    width: 80%; /* Give some breathing room on the sides */
+    max-width: 800px; /* Prevent text from stretching too wide on large screens */
+}
+
+.home-banner h1 {
+    font-size: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.home-banner h2 {
+    font-size: 1.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.home-banner .input-group {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-banner .input-group input {
+    height: 54px;
+    padding: 0.2rem 1rem;
+}
+
+.home-banner .input-group button {
+    font-size: 1.5rem;
+    padding: 0.2rem 1.5rem;
+    white-space: nowrap;
+}
