@@ -72,7 +72,7 @@ The application follows a structured approach for handling UI state and data flo
 
 ## Deployment  
 
-- The project is deployed on Netlify at [https://meghashree-movieapp.netlify.app/] (https://meghashree-movieapp.netlify.app/)
+- The project is deployed on Netlify at [https://meghashree-movieapp.netlify.app/]  
 - The project repository is available on GitHub at [https://github.com/Meghashree03/NetflixClone](https://github.com/Meghashree03/NetflixClone).  
 
 
