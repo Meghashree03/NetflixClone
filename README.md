@@ -1,12 +1,63 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Project Folder Structure
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/  
+├── Components/  
+│   ├── Banner/  
+│   │   ├── Banner.jsx  
+│   │   ├── Bannercard.jsx  
+│   │   ├── Banneruse.jsx  
+│   │   ├── banner.css  
+│   │  
+│   ├── EntryPage/  
+│   │   ├── HomeBanner.jsx  
+│   │   ├── Homebanner.css  
+│   │  
+│   ├── Favorites/  
+│   │   ├── Favourite.jsx  
+│   │   ├── fav.css  
+│   │  
+│   ├── Filter/  
+│   │   ├── Filter.jsx  
+│   │   ├── filter.css  
+│   │  
+│   ├── Footer/  
+│   │   ├── Footer.jsx  
+│   │   ├── footer.css  
+│   │  
+│   ├── MoviePage/  
+│   │   ├── Movie.jsx  
+│   │   ├── moviePage.css  
+│   │  
+│   ├── Login/  
+│   │   ├── Login.jsx  
+│   │   ├── login.css  
+│   │  
+│   ├── Navbar/  
+│   │   ├── Navbar.jsx  
+│   │   ├── navbar.css  
+│   │  
+│   ├── Tvshows/  
+│   │   ├── Show.jsx  
+│   │   ├── show.css  
+│   │  
+│   ├── Upcoming/  
+│   │   ├── Upcoming.jsx  
+│   │   ├── Ucard.jsx  
+│   │  
+│   ├── Watch/  
+│   │   ├── SinglePage.jsx  
+│   │   ├── single.css  
+│  
+├── Pages/  
+│   ├── FavoritePage.jsx  
+│   ├── HomePage.jsx  
+│   ├── LoginPage.jsx  
+│   ├── MainPage.jsx  
+│   ├── MoviePage.jsx  
+│   ├── MovieDetails.jsx  
+│   ├── NewandPopular.jsx  
+│   ├── ResultPage.jsx  
+│  
+├── App.jsx  
+├── App.css  
