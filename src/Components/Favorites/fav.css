@@ -1,7 +1,7 @@
 .fav-container {
     padding: 20px;
     color: #fff;
-    min-height: 100vh; /* Ensures full height for larger screens */
+    min-height: 100vh; 
 }
 
 .page-title {
@@ -9,11 +9,11 @@
     margin-bottom: 30px;
     font-size: 36px;
     color: #f1e6e6;
-    text-shadow: 2px 2px 4px #e76b6b; /* Matches the red shadow used in tvshow-page */
+    text-shadow: 2px 2px 4px #e76b6b; 
     margin-top: 5%;
-    text-transform: uppercase; /* Makes the title all caps */
-    letter-spacing: 2px; /* Adds spacing for a modern look */
-    font-family: 'Arial', sans-serif; /* Use the same font-family for consistency */
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-family: 'Arial', sans-serif; 
 }
 
 .fav-grid {
@@ -43,8 +43,8 @@
 .fav-card img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Ensures consistent aspect ratio for images */
-    border-bottom: 2px solid #e63946; /* Adds a red border for style */
+    object-fit: cover; 
+    border-bottom: 2px solid #e63946; 
 }
 
 .fav-info {
@@ -53,16 +53,16 @@
 
 .fav-info h3 {
     margin-bottom: 10px;
-    font-size: 20px; /* Matches the title size of cards in other pages */
+    font-size: 20px;
     color: #efe5e5;
-    text-transform: capitalize; /* Capitalizes each word */
-    font-family: 'Arial', sans-serif; /* Use consistent font-family */
+    text-transform: capitalize; 
+    font-family: 'Arial', sans-serif; 
 }
 
 .fav-info p {
     margin: 5px 0;
-    font-size: 16px; /* Matches paragraph text size with other pages */
-    line-height: 1.6; /* Improves text readability */
+    font-size: 16px; 
+    line-height: 1.6;
     color: #d3d3d3;
 }
 
@@ -82,41 +82,40 @@
     background-color: #d62839;
 }
 
-/* Responsive Design */
 @media only screen and (max-width: 768px) {
     .fav-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 15px; /* Reduces gap for smaller screens */
+        gap: 15px; 
     }
 
     .page-title {
-        font-size: 28px; /* Reduces title size for smaller screens */
+        font-size: 28px; 
         margin-top: 10%;
     }
 
     .fav-info h3 {
-        font-size: 18px; /* Adjust heading size for better fit */
+        font-size: 18px; 
     }
 
     .fav-info p {
-        font-size: 14px; /* Adjust paragraph size for readability */
+        font-size: 14px; 
     }
 }
 
 @media only screen and (max-width: 400px) {
     .fav-grid {
-        grid-template-columns: 1fr; /* Single-column layout for very small screens */
+        grid-template-columns: 1fr; 
     }
 
     .fav-info {
-        padding: 10px; /* Reduces padding */
+        padding: 10px; 
     }
 
     .fav-info h3 {
-        font-size: 16px; /* Adjust heading size */
+        font-size: 16px; 
     }
 
     .fav-info p {
-        font-size: 12px; /* Adjust paragraph size */
+        font-size: 12px; 
     }
 }

@@ -1,4 +1,4 @@
-/* Updated CSS for SinglePage Component */
+
 .singleHeading {
   background-color: #1e272d;
   padding: 15px 0;
@@ -7,29 +7,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; /* Adds spacing between title and other details */
+  gap: 10px; 
   margin-top: 5%;
 }
 
 .singleHeading h1 {
   text-transform: uppercase;
   font-size: 30px;
-  margin: 0; /* Removes extra margin for consistent alignment */
+  margin: 0;
 }
 
 .singleHeading span {
   word-spacing: 5px;
-  font-size: 18px; /* Adjust font size for better visibility */
-  margin: 0; /* Removes extra margin */
+  font-size: 18px; 
+  margin: 0; 
 }
 
 .singlePage .container {
   max-width: 80%;
   margin: auto;
   display: flex;
-  flex-direction: column; /* Stacks elements vertically */
-  gap: 20px; /* Adds spacing between image and text */
-  padding: 20px; /* Adds inner padding for better layout */
+  flex-direction: column; 
+  gap: 20px; 
+  padding: 20px; 
 }
 
 .singlePage h3 {
@@ -111,41 +111,41 @@
 
 @media only screen and (max-width: 768px) {
   .singleHeading {
-    flex-direction: column; /* Stack the elements vertically */
-    gap: 5px; /* Reduce spacing */
+    flex-direction: column; 
+    gap: 5px;
     margin-top: 10%;
   }
 
   .singleHeading h1 {
-    font-size: 24px; /* Adjust font size */
+    font-size: 24px; 
   }
 
   .singleHeading span {
-    font-size: 16px; /* Adjust font size */
+    font-size: 16px;
   }
 
   .singlePage .container {
     max-width: 90%;
-    gap: 15px; /* Reduce spacing */
+    gap: 15px; 
   }
 
   .singlePage p {
-    line-height: 1.4; /* Adjust line height */
+    line-height: 1.4; 
   }
 
   .social {
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: column; 
+    align-items: flex-start; 
     margin: 20px 0;
     padding: 5px 0;
   }
 
   .social img {
-    margin: 10px 0 0 0; /* Adjust spacing between items */
+    margin: 10px 0 0 0; 
   }
 
   .favorite-button {
-    font-size: 14px; /* Reduce button size */
-    padding: 8px 16px; /* Adjust padding */
+    font-size: 14px; 
+    padding: 8px 16px; 
   }
 }

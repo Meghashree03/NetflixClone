@@ -7,19 +7,18 @@ const Movie = () => {
   const allMovies = [...homeData, ...trending, ...upcome, ...latest, ...recommended];
   const [favorites, setFavorites] = useState([]);
 
-  // Load favorites from local storage on mount
+  
   useEffect(() => {
     const storedFavorites = JSON.parse(localStorage.getItem("favorites")) || [];
     setFavorites(storedFavorites);
   }, []);
 
-  // Handle add/remove from favorites
   const handleFavoriteToggle = (movie) => {
     let updatedFavorites;
     const isFavorite = favorites.some((fav) => fav.id === movie.id);
 
     if (isFavorite) {
-      // Remove from favorites
+     
       updatedFavorites = favorites.filter((fav) => fav.id !== movie.id);
     } else {
       // Add to favorites

@@ -1,7 +1,7 @@
 .tvshow-page {
     padding: 20px;
     color: #fff;
-    min-height: 100vh; /* Ensures full height for larger screens */
+    min-height: 100vh; 
   }
   
   .page-title {
@@ -10,8 +10,8 @@
     font-size: 36px;
     color: #f9f9f9;
     margin-top: 5%;
-    text-transform: uppercase; /* Makes the title all caps */
-    letter-spacing: 2px; /* Adds spacing between letters for a cleaner look */
+    text-transform: uppercase;
+    letter-spacing: 2px; 
   }
   
   .tvshow-grid {
@@ -41,8 +41,8 @@
   .tvshow-image {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Ensures consistent aspect ratio for images */
-    border-bottom: 2px solid #e50914; /* Adds a red border for style */
+    object-fit: cover; 
+    border-bottom: 2px solid #e50914; 
   }
   
   .tvshow-info {
@@ -53,62 +53,62 @@
     margin-bottom: 10px;
     font-size: 20px;
     color: #efe5e5;
-    text-transform: capitalize; /* Capitalizes each word */
+    text-transform: capitalize; 
   }
   
   .tvshow-info p {
     margin: 5px 0;
     font-size: 14px;
-    line-height: 1.6; /* Improves text readability */
+    line-height: 1.6; 
     color: #d3d3d3;
   }
   
   .tvshow-card-link {
-    text-decoration: none; /* Removes underline */
-    color: white; /* Ensures the text is white */
+    text-decoration: none; 
+    color: white; 
     transition: color 0.3s ease;
   }
   
   .tvshow-card-link:hover {
-    color: #e50914; /* Changes the color to red on hover */
+    color: #e50914; 
   }
   
-  /* Responsive Design */
+  
   @media only screen and (max-width: 768px) {
     .tvshow-grid {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px; /* Reduces gap for smaller screens */
+      gap: 15px;
     }
   
     .page-title {
-      font-size: 28px; /* Reduces title size for smaller screens */
+      font-size: 28px; 
       margin-top: 10%;
     }
   
     .tvshow-info h2 {
-      font-size: 18px; /* Adjust heading size for better fit */
+      font-size: 18px; 
     }
   
     .tvshow-info p {
-      font-size: 12px; /* Adjust paragraph size for readability */
+      font-size: 12px;
     }
   }
   
   @media only screen and (max-width: 400px) {
     .tvshow-grid {
-      grid-template-columns: 1fr; /* Single-column layout for very small screens */
+      grid-template-columns: 1fr; 
     }
   
     .tvshow-info {
-      padding: 10px; /* Reduces padding */
+      padding: 10px; 
     }
   
     .tvshow-info h2 {
-      font-size: 16px; /* Adjust heading size */
+      font-size: 16px; 
     }
   
     .tvshow-info p {
-      font-size: 10px; /* Adjust paragraph size */
+      font-size: 10px; 
     }
   }
   

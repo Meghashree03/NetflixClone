@@ -77,12 +77,12 @@ p {
 
 
 .content-container {
-  margin-top: 10vh; /* Pushes the content 10% below the viewport height */
+  margin-top: 10vh; 
 }
 
 @media (max-width: 768px) {
   .content-container {
-    margin-top: 30vh; /* Increase margin for smaller screens */
+    margin-top: 30vh; 
   }
 }
 
@@ -138,7 +138,6 @@ p {
 
 
 
-/*---------------MovieBox-------------*/
 @media only screen and (max-width: 768px) {
   .MovieBox {
     width: 320px;
@@ -148,18 +147,18 @@ p {
 
 @media only screen and (max-width: 478px) {
   .MovieBox {
-    width: 280px; /* Further reduce width for smaller screens */
-    height: 200px; /* Adjust height for smaller screens */
+    width: 280px; 
+    height: 200px;
   }
   .MovieBox .text {
-    padding: 50px 30px; /* Adjust padding for smaller screens */
+    padding: 50px 30px; 
   }
   .MovieBox h3 {
-    font-size: 16px; /* Reduce font size for titles */
+    font-size: 16px; 
   }
   .MovieBox button {
-    padding: 10px 15px; /* Adjust button padding */
-    font-size: 12px; /* Reduce button text size */
+    padding: 10px 15px;
+    font-size: 12px; 
   }
   .control-btn button {
     width: 40px;

@@ -38,7 +38,7 @@ const Navbar = () => {
             />
           </Link>
 
-          {/* Search Bar */}
+         
           <div className="navbar-search">
             <input
               type="text"
@@ -52,7 +52,6 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Genre Filter Dropdown */}
           <div className="navbar-genre">
             <select
               value={selectedGenre}
@@ -65,7 +64,7 @@ const Navbar = () => {
               <option value="Drama">Drama</option>
               <option value="Thriller">Thriller</option>
               <option value="Romance">Romance</option>
-              {/* Add more genres as needed */}
+              
             </select>
           </div>
 

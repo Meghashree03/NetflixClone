@@ -1,15 +1,14 @@
-import React from 'react'
-import Movie from '../Components/MoviePage/Movie'
-import Navbar from '../Components/Navbar/Navbar'
+import React from "react";
+import Movie from "../Components/MoviePage/Movie";
+
+const MemoizedMovie = React.memo(Movie);
 
 const MoviePage = () => {
   return (
     <div>
-      
-       
-      <Movie/>
+      <MemoizedMovie />
     </div>
-  )
-}
+  );
+};
 
-export default MoviePage
+export default MoviePage;

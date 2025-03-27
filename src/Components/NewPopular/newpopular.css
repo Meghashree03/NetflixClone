@@ -1,7 +1,7 @@
 .movie-page {
     padding: 20px;
     color: #fff;
-    min-height: 100vh; /* Ensures full-height for larger screens */
+    min-height: 100vh; 
   }
   
   .page-title {
@@ -9,10 +9,10 @@
     margin-bottom: 30px;
     font-size: 36px;
     color: #f1e6e6;
-    text-shadow: 2px 2px 4px #e76b6b; /* Adds subtle shadow for depth */
+    text-shadow: 2px 2px 4px #e76b6b; 
     margin-top: 5%;
-    text-transform: uppercase; /* Makes the title all caps */
-    letter-spacing: 2px; /* Adds spacing for a modern look */
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
   }
   
   .movie-grid {
@@ -42,8 +42,8 @@
   .movie-image {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Ensures consistent image aspect ratio */
-    border-bottom: 2px solid #e50914; /* Adds a bold red separator */
+    object-fit: cover; 
+    border-bottom: 2px solid #e50914; 
   }
   
   .movie-info {
@@ -54,62 +54,61 @@
     margin-bottom: 10px;
     font-size: 20px;
     color: #efe5e5;
-    text-transform: capitalize; /* Capitalizes each word */
+    text-transform: capitalize; 
   }
   
   .movie-info p {
     margin: 5px 0;
     font-size: 14px;
-    line-height: 1.6; /* Improves text readability */
+    line-height: 1.6;
     color: #d3d3d3;
   }
   
   .movie-card-link {
-    text-decoration: none; /* Removes underline */
-    color: white; /* Ensures the text is white */
+    text-decoration: none;
+    color: white;
     transition: color 0.3s ease;
   }
   
   .movie-card-link:hover {
-    color: #e50914; /* Red highlight on hover */
+    color: #e50914; 
   }
   
-  /* Responsive Design */
   @media only screen and (max-width: 768px) {
     .movie-grid {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px; /* Reduces gap for smaller screens */
+      gap: 15px; 
     }
   
     .page-title {
-      font-size: 28px; /* Reduces title size for smaller screens */
+      font-size: 28px;
       margin-top: 10%;
     }
   
     .movie-info h2 {
-      font-size: 18px; /* Adjust heading size for smaller screens */
+      font-size: 18px; 
     }
   
     .movie-info p {
-      font-size: 12px; /* Adjust text size for readability */
+      font-size: 12px; 
     }
   }
   
   @media only screen and (max-width: 400px) {
     .movie-grid {
-      grid-template-columns: 1fr; /* Single-column layout for very small screens */
+      grid-template-columns: 1fr;
     }
   
     .movie-info {
-      padding: 10px; /* Reduces padding for compact view */
+      padding: 10px; 
     }
   
     .movie-info h2 {
-      font-size: 16px; /* Adjust heading size */
+      font-size: 16px; 
     }
   
     .movie-info p {
-      font-size: 10px; /* Adjust text size */
+      font-size: 10px; 
     }
   }
   

@@ -1,6 +1,6 @@
 .home-banner {
     position: relative;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     width: 100%;
     overflow: hidden;
 }
@@ -8,7 +8,7 @@
 .home-banner img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* This crops the image to fill the container */
+    object-fit: cover; 
 }
 
 .home-banner .shadow {
@@ -24,12 +24,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the content precisely */
+    transform: translate(-50%, -50%); 
     color: white;
     text-align: center;
     z-index: 1;
-    width: 80%; /* Give some breathing room on the sides */
-    max-width: 800px; /* Prevent text from stretching too wide on large screens */
+    width: 80%; 
+    max-width: 800px; 
 }
 
 .home-banner h1 {

@@ -1,4 +1,4 @@
-// SinglePage.js
+
 import React, { useState, useEffect } from "react";
 import "./single.css";
 import { useParams } from "react-router-dom";

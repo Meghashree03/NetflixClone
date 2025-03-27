@@ -1,32 +1,30 @@
 
-
-
 .nav__logo {
     width: 100px;
 }
 
 .topNav {
     position: fixed;
-    top: 0; /* Ensure the navbar stays at the top */
-    left: 0; /* Align to the left */
+    top: 0; 
+    left: 0; 
     width: 100%;
     background: linear-gradient(180deg, black, transparent);
-    z-index: 10; /* Ensure it stays above other content */
-    padding: 10px 20px; /* Optional: Adjust padding for better appearance */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow for visibility */
+    z-index: 10; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 .profile-container {
     display: flex;
-    align-items: center; /* Centers the profile image vertically */
+    align-items: center; 
 }
 
 .profile-image {
-    width: 40px; /* Adjust width */
-    height: 40px; /* Adjust height */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image scales properly */
-    margin-left: 10px; /* Adds some spacing */
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-left: 10px; 
 }
 
 .navbar-search {
@@ -53,7 +51,7 @@
     padding: 8px 15px;
     border: none;
     border-radius: 4px;
-    background-color: #ed3b1c;
+    background-color: #eb344c;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./newpopular.css"; // Your custom CSS
+import "./newpopular.css"; 
 import { trending, recommended } from "../../Data/Movie";
 
 const NewPopular = () => {

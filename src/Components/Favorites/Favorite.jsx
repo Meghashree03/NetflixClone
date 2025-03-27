@@ -4,13 +4,13 @@ import "./fav.css";
 const Favorite = () => {
   const [favorites, setFavorites] = useState([]);
 
-  // Load favorites from local storage when the component mounts
+  
   useEffect(() => {
     const storedFavorites = JSON.parse(localStorage.getItem("favorites")) || [];
     setFavorites(storedFavorites);
   }, []);
 
-  // Remove a movie from favorites
+  
   const handleRemove = (id) => {
     const updatedFavorites = favorites.filter((movie) => movie.id !== id);
     setFavorites(updatedFavorites);

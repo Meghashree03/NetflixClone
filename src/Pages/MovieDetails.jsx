@@ -1,13 +1,17 @@
-import React from 'react'
-import Navbar from '../Components/Navbar/Navbar'
-import SinglePage from '../Components/Watch/SinglePage'
+import React, { Suspense } from 'react';
+
+
+const SinglePage = React.lazy(() => import('../Components/Watch/SinglePage'));
 
 const MovieDetails = () => {
   return (
     <div>
-        <SinglePage/>
+     
+      <Suspense fallback={<div>Loading Movie Details...</div>}>
+        <SinglePage />
+      </Suspense>
     </div>
-  )
-}
+  );
+};
 
-export default MovieDetails
+export default MovieDetails;

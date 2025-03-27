@@ -13,6 +13,7 @@ import NewandPopularPage from "./Pages/NewandPopularPage";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import { useTheme } from "./Components/ContextToggle/ContextBackground";
+import ErrorPage from "./Components/ErrorHandle/ErrorPage";
 
 function App() {
   const { theme } = useTheme();
@@ -20,8 +21,8 @@ function App() {
 
     <div
       style={{
-        backgroundColor: theme === "white" ? "white" : "initial", // Default or white
-        color: theme === "white" ? "black" : "inherit", // Adjust text color for white theme
+        backgroundColor: theme === "white" ? "white" : "initial", 
+        color: theme === "white" ? "black" : "inherit", 
         minHeight: "100vh",
       }}
     >
@@ -35,12 +36,16 @@ function App() {
           <Route path="/login" element={<LoginPage page={true} />} />
           <Route path="/register" element={<LoginPage page={false} />} />
           <Route path="/dashboard" element={<MainPage />} />
+         
           <Route path="/singlePage/:id" element={<MovieDetails />} />
+         
           <Route path="/movies" element={<MoviePage />} />
           <Route path="/search" element={<ResultPage />} />
           <Route path="/mylist" element={<FavoritePage />} />
           <Route path="/tv-shows" element={<TvshowPage />} />
           <Route path="/newandpopular" element={<NewandPopularPage />} />
+          <Route path="*" element={<ErrorPage />} />
+
         </Routes>
         <Footer/>
       </div>
